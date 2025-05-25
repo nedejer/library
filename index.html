@@ -6,6 +6,7 @@
     <title>Library</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/f957c5f3d0.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <section id="landing">
@@ -17,7 +18,27 @@
                     <li><a href="#" class="nav__link">Contact</a></li>
                     <li><a href="#featured" class="nav__link nav__link--primary">Books</a></li>
                 </ul>
+             
+             <button class="button__menu" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+             </button>
+             <div class="menu__backdrop">
+                <button class="button__menu button__menu--close" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#featured" class="menu__link">Books</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link no-cursor">Contact</a>
+                    </li>
+                </ul>
              </div>
+            </div>
         </nav>
         <header>
             <div class="header__container">
@@ -154,6 +175,7 @@
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-1.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     The 10X Rule
                                     <div class="book__ratings">
@@ -166,11 +188,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-2.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     Be Obsessed or be Average
                                     <div class="book__ratings">
@@ -183,11 +206,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-3.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     Rich Dad Poor Dad
                                     <div class="book__ratings">
@@ -200,11 +224,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-4.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     Cashflow Quadrant
                                     <div class="book__ratings">
@@ -217,11 +242,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-5.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     48 Laws of Power
                                     <div class="book__ratings">
@@ -234,11 +260,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-6.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     The 5 Second Rule
                                     <div class="book__ratings">
@@ -251,11 +278,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-7.jpg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     Your Next 5 Moves
                                     <div class="book__ratings">
@@ -268,11 +296,12 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img src="./assets/book-8.jpeg" alt="" class="book__img">
+                            </figure>
                                 <div class="book__title">
                                     Mastery
                                     <div class="book__ratings">
@@ -285,7 +314,7 @@
                                     <div class="book__price">$59.95
                                     </div>
                                 </div>
-                            </figure>
+                            
                         </div>
                     </div>
                 </div>
