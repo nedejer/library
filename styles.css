@@ -384,6 +384,7 @@ footer {
 .footer__logo--img {
     width: 160px;
     filter: grayscale(1) invert(1);
+    margin-bottom: 20px;
 }
 
 .footer__link,
@@ -392,7 +393,7 @@ footer {
 }
 
 .footer__list {
-    margin-bottom: 24px 0;
+    margin-bottom: 24px;
 }
 
 .footer__link {
