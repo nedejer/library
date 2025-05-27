@@ -334,6 +334,8 @@ FEATURES
     border-radius: 4px;
     overflow: hidden;
     display: flex;
+    width: 200px;
+    height: 300px;
 }
 
 .book:hover .book__img {
